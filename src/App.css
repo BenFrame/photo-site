@@ -1,8 +1,12 @@
 .App {
+  background-image: url('');
+  background-size: cover;
+  background-repeat: no-repeat;
   text-align: center;
   background-color: black;
   min-height: 100vh;
-  color: rgb(196, 42, 42)
+  color: rgb(196, 42, 42);
+  padding: 20px;
 }
 
 .App-logo {
@@ -49,5 +53,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Footer{
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 

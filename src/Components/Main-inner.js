@@ -9,8 +9,8 @@ export default function Main() {
                 <img src={ablogo} className="App-logo" alt="logo" />
                 <h1>I LOST MY SHIT</h1>
             </header>
-               <footer>
-                <Link to="/" >BACK TO MY SPINNY</Link>
+               <footer className = "Footer">
+                <Link className = "Footer" to="/" >BACK TO MY SPINNY</Link>
                </footer> 
         </div>
         )
