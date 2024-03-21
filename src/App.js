@@ -1,22 +1,33 @@
-import logo from './logo.svg';
+import ablogo from '../src/ablogo.181d0c94.png'
 import './App.css';
+import Main from './Components/Main-inner'
+import { Routes, Route, Link } from 'react-router-dom';
 
 function App() {
+
+  return (
+    <Routes>
+      <Route path="/" element={ <DefaultPage />} />
+      <Route path="/Main" element={ <Main />} />
+    </Routes>
+  )  
+}
+
+const DefaultPage = () => {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
+        {/* <h1> AnB Reptiles </h1> */}
+        <img src={ablogo} className="App-logo" alt="logo" />
+        <Link to="/Main" className="App-link">Enter</Link>
+        {/* <a
           className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
+          href="/Main"
+          target="blank"
           rel="noopener noreferrer"
         >
-          Learn React
-        </a>
+          ENTER
+        </a> */}
       </header>
     </div>
   );
