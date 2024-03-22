@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 
 export default function Main() {
     return (
-        <div>
+        <div className = "App-inner">
 
-            <header className="App">
+            <header className="App-header-inner">
                 <img src={ablogo} className="App-logo" alt="logo" />
                 <h1>I LOST MY SHIT</h1>
             </header>
