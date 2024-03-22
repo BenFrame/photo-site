@@ -7,8 +7,8 @@ export default function Main() {
 
             <header className="App-header-inner">
                 <img src={ablogo} className="App-logo" alt="logo" />
+                <h1 className="Welcome-header">WELCOME</h1>
             </header>
-                <h1>WELCOME</h1>
                <footer className = "Footer">
                 <Link className = "Footer" to="/" >BACK TO MY SPINNY</Link>
                </footer> 
