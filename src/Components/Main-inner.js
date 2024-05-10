@@ -1,5 +1,6 @@
 import ablogo from '../ablogo.181d0c94.png'
 import { Link } from 'react-router-dom';
+import '../App.css';
 
 export default function Main() {
     return (

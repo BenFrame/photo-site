@@ -10,7 +10,8 @@
 }
 .App-inner{
   background-image: url('FB_IMG_1704487095953.jpg');
-  background-size: cover;
+  justify-content: center;
+  background-position: center;
   background-repeat: no-repeat;
   text-align: left;
   background-color: black;
