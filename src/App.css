@@ -11,8 +11,9 @@
 .App-inner{
   background-image: url('FB_IMG_1704487095953.jpg');
   justify-content: center;
-  background-position: center;
+  background-position: bottom;
   background-repeat: no-repeat;
+  background-origin: content-box;
   text-align: left;
   background-color: black;
   min-height: 100vh;
@@ -35,6 +36,7 @@
 
 .Welcome-header{
   text-align: left;
+  
 }
 
 .App-header {
