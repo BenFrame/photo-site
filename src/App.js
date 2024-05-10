@@ -1,4 +1,4 @@
-import ablogo from '../src/ablogo.181d0c94.png'
+import ablogo from './Components/photos/ablogo.181d0c94.png'
 import './App.css';
 import Main from './Components/Main-inner'
 import { Routes, Route, Link } from 'react-router-dom';
