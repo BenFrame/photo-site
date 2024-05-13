@@ -7,7 +7,7 @@ export default function Main() {
         <div className = "App-inner">
 
             <header className="App-header-inner">
-                <img  src={ablogo} className="App-logo" alt="logo" />
+                <img  src={ablogo} className="App-logo-inner" alt="logo" />
                 <div className="Welcome-header">
                     <h1 >WELCOME</h1>
                 </div>

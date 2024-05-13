@@ -9,11 +9,11 @@
   padding: 20px;
 }
 .App-inner{
-  background-image: url('FB_IMG_1704487095953.jpg');
+  /* background-image: url('FB_IMG_1704487095953.jpg');
   justify-content: center;
-  background-position: bottom;
+  background-position: right;
   background-repeat: no-repeat;
-  background-origin: content-box;
+  background-origin: content-box; */
   text-align: left;
   background-color: black;
   min-height: 100vh;
@@ -28,6 +28,12 @@
   pointer-events: none;
 }
 
+.App-logo-inner {
+  height: 20vmin;
+  pointer-events: none;
+  justify-content: center;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 0s linear;
@@ -35,7 +41,8 @@
 }
 
 .Welcome-header{
-  text-align: left;
+  /* text-align: left; */
+  justify-content: left;
   
 }
 
@@ -43,11 +50,7 @@
   background-image: url('BWF_6370.jpg');
   background-color: black;
   background-size: contain;
-
-  /* Optionally, set background position */
   background-position: center;
-
-  /* Optionally, set background repeat */
   background-repeat: no-repeat;
   min-height: 100vh;
   display: flex;
@@ -59,21 +62,14 @@
   
 }
 .App-header-inner {
-  position: relative;
+  position:relative;
   background-color: black;
   background-size: cover;
-  
-
-  /* Optionally, set background position */
-  background-position: top;
-
-  /* Optionally, set background repeat */
-  background-repeat: no-repeat;
   min-height: 130px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: left;
+  /* align-items: center; */
+  /* justify-content: left; */
   font-size: 75px;
   text-align: left;
   color: white;
