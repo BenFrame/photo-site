@@ -9,11 +9,7 @@
   padding: 20px;
 }
 .App-inner{
-  background-image: url('FB_IMG_1704487095953.jpg');
-  justify-content: center;
-  background-position: right;
-  background-repeat: no-repeat;
-  background-origin: content-box;
+  
   /* text-align: left; */
   background-color: black;
   min-height: 100vh;
@@ -97,7 +93,13 @@
   }
 }
 
-.Body{
+Body{
+  background-image: url('AxMirror.jpg');
+  background-size: 60%;
+  justify-content: center;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-origin: content-box;
   justify-content: center;
 }
 
