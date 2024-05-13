@@ -7,10 +7,17 @@ export default function Main() {
         <div className = "App-inner">
 
             <header className="App-header-inner">
-                <img  src={ablogo} className="App-logo-inner" alt="logo" />
+                
                 <div className="Welcome-header">
                     <h1 >WELCOME</h1>
                 </div>
+                    <nav>
+                        <a href='/'>Home</a>
+                        <a href='/collection'>Collection</a>
+                        <a href='/forSale'>For Sale</a>
+                        <a href='/prints'>Prints</a>
+
+                    </nav>
             </header>
             <body>
                 <h2> About us: </h2>
@@ -26,6 +33,7 @@ export default function Main() {
                 (and with a continuously expanding collection of animals reaching breeding age) we eventually decided to start AnB Reptiles in 2017!</p>
             </body>
             <footer className = "Footer">
+                {/* <img  src={ablogo} className="App-logo-inner" alt="logo"/> */}
                 <Link className = "Footer" to="/" >BACK</Link>
             </footer> 
         </div>
