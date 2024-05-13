@@ -9,12 +9,12 @@
   padding: 20px;
 }
 .App-inner{
-  /* background-image: url('FB_IMG_1704487095953.jpg');
+  background-image: url('FB_IMG_1704487095953.jpg');
   justify-content: center;
   background-position: right;
   background-repeat: no-repeat;
-  background-origin: content-box; */
-  text-align: left;
+  background-origin: content-box;
+  /* text-align: left; */
   background-color: black;
   min-height: 100vh;
   color: white;
@@ -97,12 +97,22 @@
   }
 }
 
+.Body{
+  justify-content: center;
+}
+
 .Footer{
-  background-color:rgb(196, 42, 42);
-  color: black;
+  background-color:black;
+  color: red;
   font-size: 20px;
   position: absolute;
   bottom: 0;
   left:0;
+  }
+
+  p{
+    font-size: large;
+    width: 30%;
+    text-align: center;
   }
 
