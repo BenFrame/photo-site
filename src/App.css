@@ -101,6 +101,7 @@ Body{
   background-position: right;
   background-repeat: no-repeat;
   background-origin: content-box;
+  /* background-attachment: fixed; */
   justify-content: center;
   
 }
