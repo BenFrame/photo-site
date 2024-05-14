@@ -20,14 +20,6 @@ const DefaultPage = () => {
         {/* <h1> AnB Reptiles </h1> */}
         <img src={ablogo} className="App-logo" alt="logo" />
         <Link to="/Main" className="App-link">Enter</Link>
-        {/* <a
-          className="App-link"
-          href="/Main"
-          target="blank"
-          rel="noopener noreferrer"
-        >
-          ENTER
-        </a> */}
       </header>
     </div>
   );
