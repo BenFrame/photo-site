@@ -19,8 +19,8 @@ const DefaultPage = () => {
       <header className="App-header">
         <h1> AnB Reptiles </h1>
         {/* <img src={ablogo} className="App-logo" alt="logo" /> */}
-        <Link to="/Main" className="App-link">Enter</Link>
       </header>
+        <Link to="/Main" className="App-link">Enter</Link>
     </div>
   );
 }

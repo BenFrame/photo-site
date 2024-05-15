@@ -1,8 +1,12 @@
 .App {
-  background-image: url('');
-  background-size: cover;
+  background-image: url('CameraBlackBG.jpg'),url('BettyDark.jpg');
+  background-color: black;
+  background-size: 50%,45%;
+  background-position: left, right;
   background-repeat: no-repeat;
-  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   background-color: black;
   min-height: 100vh;
   color: white;
@@ -43,17 +47,10 @@
 }
 
 .App-header {
-  background-image: url('CameraBlackBG.jpg'),url('BettyDark.jpg');
-  background-color: black;
-  background-size: 50%,45%;
-  background-position: left, right;
-  background-repeat: no-repeat;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  text-align: center;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: 72px;
   color: white;
   
 }
@@ -79,6 +76,9 @@
 }
 
 .App-link {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
   color: white;
   font-size: 50px;
   padding: 10px;
