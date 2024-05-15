@@ -82,7 +82,8 @@
   color: white;
   font-size: 50px;
   padding: 10px;
-  
+  margin: 300px auto;
+  display: block;
 }
 
 @keyframes App-logo-spin {
