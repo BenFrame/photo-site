@@ -12,7 +12,7 @@ export default function Main() {
                     <h1 >WELCOME</h1>
                 </div>
                     <nav>
-                        <a href='/'>Home</a>
+                        <a href='/main'>Home</a>
                         <a href='/collection'>Collection</a>
                         <a href='/AnimalsforSale'>Animals For Sale</a>
                         <a href='/prints'>Prints</a>

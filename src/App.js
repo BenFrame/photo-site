@@ -20,6 +20,7 @@ const DefaultPage = () => {
         <h1> AnB Reptiles </h1>
         {/* <img src={ablogo} className="App-logo" alt="logo" /> */}
       </header>
+        <p className='Quote'>"Experience Beauty"</p>
         <Link to="/Main" className="App-link">Enter</Link>
     </div>
   );
