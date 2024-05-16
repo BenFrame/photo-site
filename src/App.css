@@ -33,8 +33,7 @@
 
 .App-logo-inner {
   height: 20vmin;
-  pointer-events: none;
-  justify-content: center;
+  
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -123,6 +122,7 @@ Body{
   .Footer a {
     color: red;
     padding: 0;
+    display: block;
   }
 
   h2{

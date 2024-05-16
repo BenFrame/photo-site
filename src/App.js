@@ -1,15 +1,22 @@
 import ablogo from './Components/photos/ablogo.181d0c94.png'
 import './App.css';
 import Main from './Components/Main-inner'
-import { Routes, Route, Link } from 'react-router-dom';
+import { 
+  Routes, 
+  Route, 
+  Link } from 'react-router-dom';
+import { Collection } from './Components/pages/collection';
 
 function App() {
 
   return (
-    <Routes>
-      <Route path="/" element={ <DefaultPage />} />
-      <Route path="/Main" element={ <Main />} />
-    </Routes>
+    
+      <Routes>
+        <Route path="/" element={ <DefaultPage />} />
+        <Route path="/Main" element={ <Main />} />
+        <Route path="/Collection" element={<Collection/>}/>
+      </Routes>
+    
   )  
 }
 

@@ -1,6 +1,7 @@
-// import ablogo from './photos/ablogo.181d0c94.png'
+import ablogo from './photos/ablogo.181d0c94.png'
 import { Link } from 'react-router-dom';
 import '../App.css';
+
 
 export default function Main() {
     return (
@@ -35,10 +36,10 @@ export default function Main() {
             <footer className = "Footer">
                 <div>
 
+                <img  src={ablogo} className="App-logo-inner" alt="logo"/>
                 <Link to="/" >BACK</Link>
 
                 </div>
-                {/* <img  src={ablogo} className="App-logo-inner" alt="logo"/> */}
             </footer> 
         </div>
         )
