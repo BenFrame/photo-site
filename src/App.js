@@ -6,6 +6,7 @@ import {
   Route, 
   Link } from 'react-router-dom';
 import { Collection } from './Components/pages/collection';
+import {AnimalsForSale} from './Components/pages/animals-for-Sale'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
         <Route path="/" element={ <DefaultPage />} />
         <Route path="/Main" element={ <Main />} />
         <Route path="/Collection" element={<Collection/>}/>
+        <Route path="/AnimalsForSale" element={<AnimalsForSale/>}/>
       </Routes>
     
   )  

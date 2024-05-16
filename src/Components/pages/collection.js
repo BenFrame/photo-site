@@ -4,7 +4,7 @@ import '../../App.css';
 
 export const Collection = () =>{
     return (
-        <div>
+        <div >
             <header className="App-header-inner">
                 
                 <div className="Welcome-header">
@@ -12,12 +12,15 @@ export const Collection = () =>{
                 </div>
                     <nav>
                         <a href='/main'>Home</a>
-                        <a href='/collection'>Collection</a>
+                        <a className="Link-active" href='/collection'>Collection</a>
                         <a href='/AnimalsforSale'>Animals For Sale</a>
                         <a href='/prints'>Prints</a>
 
                     </nav>
             </header>
+            <body className='Body-plain'>
+
+            </body>
             <footer className = "Footer">
                 <div>
 

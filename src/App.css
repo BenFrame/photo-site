@@ -67,7 +67,7 @@
   font-size: 75px;
   /* text-align: left; */
   color: white;
-  border-bottom: 2px solid rgb(196, 42, 42);
+  border-bottom: 2px solid red;
   top: 0;
   left: 0;
 }
@@ -163,3 +163,12 @@ Body{
     margin-top: 170px;
   }
 
+  .Link-active{
+    color: red;
+    text-decoration: none;
+  }
+
+  .Body-plain{
+    background-color: black;
+    background-size: 100%;
+  }
