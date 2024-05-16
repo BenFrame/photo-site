@@ -13,7 +13,7 @@ export const Collection = () =>{
             <header className="App-header-inner">
                 
                 <div className="Header">
-                    <h1 >COLLECTION</h1>
+                    <h1 >OUR CARPET PYTHON COLLECTION</h1>
                 </div>
                     <nav>
                         <a href='/main'>Home</a>
