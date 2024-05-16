@@ -1,4 +1,4 @@
-import ablogo from './photos/ablogo.181d0c94.png'
+// import ablogo from './photos/ablogo.181d0c94.png'
 import { Link } from 'react-router-dom';
 import '../App.css';
 
@@ -20,7 +20,7 @@ export default function Main() {
                     </nav>
             </header>
             <body className='Home-article'>
-                <h2> About us: </h2>
+                <h2> About us: </h2><br></br>
                 <p>We breed and sell carpet pythons!</p>
                 <p>We are local to Rochester NY, but we ship nationwide!</p><br></br>
 
