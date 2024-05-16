@@ -5,6 +5,7 @@ import { CoastalCard } from '../species-Cards/coastals-card';
 import { JungleCard } from '../species-Cards/jungles-card';
 import { BredliCard } from '../species-Cards/bredli-card';
 import { PapuanCard } from '../species-Cards/papuan-ij-card';
+import { NovaGuineaCard } from '../species-Cards/nova-card';
 
 export const Collection = () =>{
     return (
@@ -24,9 +25,10 @@ export const Collection = () =>{
             </header>
             <section className='Card-section'>
                 <BredliCard/>
-                <JungleCard/>
+                <NovaGuineaCard/>
                 <CoastalCard/>
                 <PapuanCard/>
+                <JungleCard/>
             </section>
             <footer className = "Footer">
                 <div>

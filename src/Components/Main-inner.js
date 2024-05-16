@@ -20,8 +20,8 @@ export default function Main() {
 
                     </nav>
             </header>
-            <div className='Body-home'>
-                <body className='Home-article'>
+            <div className='Home-background'>
+                <section className='Home-article'>
                     <h2> About us: </h2><br></br>
                     <p>We breed and sell carpet pythons!</p>
                     <p>We are local to Rochester NY, but we ship nationwide!</p><br></br>
@@ -33,7 +33,7 @@ export default function Main() {
                     who had bred the animal or known the parents and would not have much information about the snake that was for sale.
                     With a desire to share this awesome species with the reptile enthusiasts around us 
                     (and with a continuously expanding collection of animals reaching breeding age) we eventually decided to start AnB Reptiles in 2017!</p>
-                </body>
+                </section>
 
             </div>
             <footer className = "Footer">
