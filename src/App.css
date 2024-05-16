@@ -94,7 +94,7 @@
   }
 }
 
-Body{
+.Body-home{
   background-image: url('AxMirror.jpg');
   background-size: 60%;
   /* justify-content: center; */

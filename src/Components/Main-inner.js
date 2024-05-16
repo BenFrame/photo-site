@@ -20,19 +20,22 @@ export default function Main() {
 
                     </nav>
             </header>
-            <body className='Home-article'>
-                <h2> About us: </h2><br></br>
-                <p>We breed and sell carpet pythons!</p>
-                <p>We are local to Rochester NY, but we ship nationwide!</p><br></br>
+            <div className='Body-home'>
+                <body className='Home-article'>
+                    <h2> About us: </h2><br></br>
+                    <p>We breed and sell carpet pythons!</p>
+                    <p>We are local to Rochester NY, but we ship nationwide!</p><br></br>
 
-                <p>After taking in our first carpet python, we quickly fell in love with the species. 
-                We would go to local shops and reptile expos and noticed there would always be lots 
-                of ball pythons, boas, and geckos... but rarely would we find carpet pythons! 
-                On the occasion that we did, the person selling it would generally not be the person 
-                who had bred the animal or known the parents and would not have much information about the snake that was for sale.
-                With a desire to share this awesome species with the reptile enthusiasts around us 
-                (and with a continuously expanding collection of animals reaching breeding age) we eventually decided to start AnB Reptiles in 2017!</p>
-            </body>
+                    <p>After taking in our first carpet python, we quickly fell in love with the species. 
+                    We would go to local shops and reptile expos and noticed there would always be lots 
+                    of ball pythons, boas, and geckos... but rarely would we find carpet pythons! 
+                    On the occasion that we did, the person selling it would generally not be the person 
+                    who had bred the animal or known the parents and would not have much information about the snake that was for sale.
+                    With a desire to share this awesome species with the reptile enthusiasts around us 
+                    (and with a continuously expanding collection of animals reaching breeding age) we eventually decided to start AnB Reptiles in 2017!</p>
+                </body>
+
+            </div>
             <footer className = "Footer">
                 <div>
 
