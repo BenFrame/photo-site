@@ -1,5 +1,7 @@
 .App {
-  background-image: url('CameraBlackBG.jpg'),url('BettyDark.jpg');
+  background-image: 
+    url('C:\Users\brewe\Bloom-Repos\my-Repos\photo-site\src\Components\photos\CameraBlackBG.jpg'),
+    url('C:\Users\brewe\Bloom-Repos\my-Repos\photo-site\src\Components\photos\BettyDark.jpg');
   background-color: black;
   background-size: 50%,45%;
   background-position: left, right;
@@ -95,7 +97,7 @@
 }
 
 .Body-home{
-  background-image: url('AxMirror.jpg');
+  background-image: url('C:\Users\brewe\Bloom-Repos\my-Repos\photo-site\src\Components\photos\AxMirror.jpg');
   background-size: 60%;
   /* justify-content: center; */
   background-position: right;
