@@ -110,15 +110,13 @@
   
 }
 
-.Footer{
-  /* background-color:black; */
+.Footer{  
+  
   color: red;
   font-size: 20px;
   width: auto;
   padding: 0;
   margin-top: 50px;
-  /* bottom: 0;
-  left:0; */
   }
 
   .Footer a {
@@ -172,7 +170,9 @@
 
   .Body-plain{
     background-color: black;
-    background-size: auto;
+    background-size: 100%;
+    display: flex;
+    justify-content: space-between;
   }
 
   .Species-card{
@@ -181,6 +181,7 @@
     text-align: center;
     padding-top: 300px;
     padding-left: 20px;
+    padding-right: 20px;
     border-radius: 5px;
     transition: 0.3s;
     width: 400px;

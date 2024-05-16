@@ -2,6 +2,8 @@ import ablogo from '../photos/ablogo.181d0c94.png'
 import { Link } from 'react-router-dom';
 import '../../App.css';
 import { CoastalCard } from '../species-Cards/coastals-card';
+import { JungleCard } from '../species-Cards/jungles-card';
+import { BredliCard } from '../species-Cards/bredli-card';
 
 export const Collection = () =>{
     return (
@@ -20,6 +22,8 @@ export const Collection = () =>{
                     </nav>
             </header>
             <body className='Body-plain'>
+                <BredliCard/>
+                <JungleCard/>
                 <CoastalCard/>
             </body>
             <footer className = "Footer">
