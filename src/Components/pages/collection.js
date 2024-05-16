@@ -1,6 +1,7 @@
 import ablogo from '../photos/ablogo.181d0c94.png'
 import { Link } from 'react-router-dom';
 import '../../App.css';
+import { CoastalCard } from '../species-Cards/coastals-card';
 
 export const Collection = () =>{
     return (
@@ -19,7 +20,7 @@ export const Collection = () =>{
                     </nav>
             </header>
             <body className='Body-plain'>
-
+                <CoastalCard/>
             </body>
             <footer className = "Footer">
                 <div>
