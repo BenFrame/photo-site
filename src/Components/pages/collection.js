@@ -4,6 +4,7 @@ import '../../App.css';
 import { CoastalCard } from '../species-Cards/coastals-card';
 import { JungleCard } from '../species-Cards/jungles-card';
 import { BredliCard } from '../species-Cards/bredli-card';
+import { PapuanCard } from '../species-Cards/papuan-ij-card';
 
 export const Collection = () =>{
     return (
@@ -21,11 +22,12 @@ export const Collection = () =>{
 
                     </nav>
             </header>
-            <body className='Body-plain'>
+            <section className='Card-section'>
                 <BredliCard/>
                 <JungleCard/>
                 <CoastalCard/>
-            </body>
+                <PapuanCard/>
+            </section>
             <footer className = "Footer">
                 <div>
 

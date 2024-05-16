@@ -168,9 +168,9 @@
     text-decoration: none;
   }
 
-  .Body-plain{
+  .Card-section{
     background-color: black;
-    background-size: 100%;
+    background-size: auto;
     display: flex;
     justify-content: space-between;
   }
