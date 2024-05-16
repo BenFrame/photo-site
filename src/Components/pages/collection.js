@@ -7,7 +7,7 @@ export const Collection = () =>{
         <div >
             <header className="App-header-inner">
                 
-                <div className="Welcome-header">
+                <div className="Header">
                     <h1 >COLLECTION</h1>
                 </div>
                     <nav>

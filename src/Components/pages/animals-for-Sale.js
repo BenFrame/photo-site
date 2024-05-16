@@ -7,7 +7,7 @@ export const AnimalsForSale = () =>{
         <div >
             <header className="App-header-inner">
                 
-                <div className="Welcome-header">
+                <div className="Header">
                     <h1 >ANIMALS FOR SALE</h1>
                 </div>
                     <nav>

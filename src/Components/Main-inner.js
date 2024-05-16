@@ -9,7 +9,7 @@ export default function Main() {
 
             <header className="App-header-inner">
                 
-                <div className="Welcome-header">
+                <div className="Header">
                     <h1 >WELCOME</h1>
                 </div>
                     <nav>
