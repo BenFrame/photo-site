@@ -9,6 +9,8 @@ export default function Main() {
 
             <header className="App-header-inner">
                 
+                <img  src={ablogo} className="App-logo-inner" alt="logo"/>
+                
                 <div className="Header">
                     <h1 >WELCOME</h1>
                 </div>
@@ -39,7 +41,7 @@ export default function Main() {
             <footer className = "Footer">
                 <div>
 
-                <img  src={ablogo} className="App-logo-inner" alt="logo"/>
+                
                 <Link to="/" >BACK</Link>
 
                 </div>

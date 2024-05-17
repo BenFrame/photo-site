@@ -34,7 +34,10 @@
 }
 
 .App-logo-inner {
-  height: 20vmin;
+  height: 13vmin;
+  top:0;
+  margin-top: 10px;
+  margin-left: 10px;
   
 }
 
@@ -47,6 +50,7 @@
 .Header{
   text-align: center;
   justify-content: center;
+  
   
 }
 
@@ -146,8 +150,9 @@
     justify-content: center;
   }
 
-  nav{
+  nav {
     text-align: center;
+    text-decoration: none;
   }
 
   .Quote{
