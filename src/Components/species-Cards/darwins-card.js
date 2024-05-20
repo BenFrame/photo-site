@@ -1,6 +1,7 @@
 import darwin from '../photos/Betty-coil.jpg'
 
 export const DarwinCard = () =>(
+
 <div class="Species-card">
   <img src={darwin} alt="Avatar" />
   <div >

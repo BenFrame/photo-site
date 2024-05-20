@@ -8,6 +8,7 @@ import {
 import { Collection } from './Components/pages/collection';
 import {AnimalsForSale} from './Components/pages/animals-for-Sale';
 import {Prints} from './Components/pages/prints';
+import { BredliCollection } from './Components/pages/bredli-collection';
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
         <Route path="/Collection" element={<Collection/>}/>
         <Route path="/AnimalsForSale" element={<AnimalsForSale/>}/>
         <Route path="/Prints" element={<Prints/>}/>
+        <Route path="/Collection/Bredli" element={<BredliCollection/>}/>
       </Routes>
     
   )  

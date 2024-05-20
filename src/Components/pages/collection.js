@@ -27,7 +27,7 @@ export const Collection = () =>{
                     </nav>
             </header>
                 <section className='Card-section'>
-                    <BredliCard/>
+                    <BredliCard />
                     <NovaGuineaCard/>
                     <CoastalCard/>
                     <PapuanCard/>
