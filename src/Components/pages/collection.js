@@ -11,6 +11,8 @@ export const Collection = () =>{
     return (
         <div >
             <header className="App-header-inner">
+
+                <img  src={ablogo} className="App-logo-inner" alt="logo"/>
                 
                 <div className="Header">
                     <h1 >OUR CARPET PYTHON COLLECTION</h1>

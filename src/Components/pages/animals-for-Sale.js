@@ -7,6 +7,8 @@ export const AnimalsForSale = () =>{
         <div >
             <header className="App-header-inner">
                 
+                <img  src={ablogo} className="App-logo-inner" alt="logo"/>
+                
                 <div className="Header">
                     <h1 >ANIMALS FOR SALE</h1>
                 </div>
@@ -24,7 +26,6 @@ export const AnimalsForSale = () =>{
             <footer className = "Footer">
                 <div>
 
-                <img  src={ablogo} className="App-logo-inner" alt="logo"/>
                 <Link to="/main" >BACK</Link>
 
                 </div>
