@@ -26,19 +26,18 @@ export const Collection = () =>{
 
                     </nav>
             </header>
-            <section className='Card-section'>
-                <BredliCard/>
-                <NovaGuineaCard/>
-                <CoastalCard/>
-                <PapuanCard/>
-                <JungleCard/>
-                <DarwinCard/>
-            </section>
+                <section className='Card-section'>
+                    <BredliCard/>
+                    <NovaGuineaCard/>
+                    <CoastalCard/>
+                    <PapuanCard/>
+                    <JungleCard/>
+                    <DarwinCard/>
+                </section>
             <footer className = "Footer">
                 <div>
-
-                <img  src={ablogo} className="App-logo-inner" alt="logo"/>
-                <Link to="/main" >BACK</Link>
+                
+                    <Link to="/main" >BACK</Link>
 
                 </div>
             </footer>

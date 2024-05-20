@@ -1,4 +1,4 @@
-import papuan from '../photos/Papuan-ij.jpg'
+import papuan from '../photos/IJ-archival.jpg'
 
 export const PapuanCard = () =>(
 <div class="Species-card">
