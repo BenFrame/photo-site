@@ -1,6 +1,6 @@
 import bredli from '../photos/Bredli-babies.jpg'
 
-export const BredliCard = () =>{
+export const BredliCard = () =>(
 
 <div class="Species-card">
   <img src={bredli} alt="Avatar" />
@@ -8,4 +8,4 @@ export const BredliCard = () =>{
     <h2>Bredli</h2>
     <p>Morelia bredli</p>
   </div>
-</div>}
+</div>)
