@@ -1,8 +1,8 @@
-import bredli from '../photos/Bredli-babies.jpg'
+// import bredli from '../photos/Bredli-babies.jpg'
 
 export const BredliCollection = () =>(
 <div class="Species-card">
-  <img src={bredli} alt="Avatar" />
+  <img src='https://i.imgur.com/50gNhXJ.jpg' alt="Avatar" />
   <div >
     <h2>Bredli</h2>
     <p>Morelia bredli</p>
