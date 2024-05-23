@@ -2,7 +2,7 @@ import React from "react"
 
 function SpeciesCard(props) {
     return <div class="Species-card">
-    <img alt="snakes" >{ props.img } </img>
+    <img src={ props.img } alt='img'/>
     <div >
       <h2> { props.commonName } </h2>
       <p> { props.scientificName } </p>
@@ -10,4 +10,4 @@ function SpeciesCard(props) {
   </div>
 }
 
-export default SpeciesCard()
+export default SpeciesCard
