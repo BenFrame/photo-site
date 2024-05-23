@@ -5,13 +5,13 @@ import '../../App.css';
 import { CoastalCard } from '../species-Cards/coastals-card';
 import { JungleCard } from '../species-Cards/jungles-card';
 import { PapuanCard } from '../species-Cards/papuan-ij-card';
-import { NovaGuineaCard } from '../species-Cards/nova-card';
 import { DarwinCard } from '../species-Cards/darwins-card';
 import SpeciesCard from '../species-Cards/species-card';
 // import bredli from 'https://imgur.com/50gNhXJ'
 
 export const Collection = () =>{
     const bredli = 'https://i.imgur.com/50gNhXJ.jpg'
+    const novas = 'https://i.imgur.com/PvIyMNH.jpg'
     return (
         <div >
             <header className="App-header-inner">
@@ -34,7 +34,10 @@ export const Collection = () =>{
                         img={bredli}
                         commonName='Bredli'
                         scientificName='Morelia bredli' />
-                    <NovaGuineaCard/>
+                    <SpeciesCard
+                    img={novas}
+                    commonName='Nova Guenea'
+                    scientificName='Morelia spilota variegata'/>
                     <CoastalCard/>
                     <PapuanCard/>
                     <JungleCard/>
