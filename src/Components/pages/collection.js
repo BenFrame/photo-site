@@ -7,6 +7,8 @@ import { BredliCard } from '../species-Cards/bredli-card';
 import { PapuanCard } from '../species-Cards/papuan-ij-card';
 import { NovaGuineaCard } from '../species-Cards/nova-card';
 import { DarwinCard } from '../species-Cards/darwins-card';
+import SpeciesCard from '../species-Cards/species-card';
+import bredli from 'https://i.imgur.com/50gNhXJ.jpg'
 
 export const Collection = () =>{
     return (
@@ -27,7 +29,8 @@ export const Collection = () =>{
                     </nav>
             </header>
                 <section className='Card-section'>
-                    <BredliCard />
+                    <SpeciesCard
+                        img={bredli} />
                     <NovaGuineaCard/>
                     <CoastalCard/>
                     <PapuanCard/>

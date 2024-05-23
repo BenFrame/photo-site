@@ -20,8 +20,8 @@ export const Prints = () =>{
 
                     </nav>
             </header>
-            <body className='Body-plain'>
-
+            <body className='Prints-background'>
+                                
             </body>
             <footer className = "Footer">
                 <div>
