@@ -5,12 +5,14 @@ import '../../App.css';
 import SpeciesCard from '../species-card';
 
 export const Collection = () =>{
+
     const bredli = 'https://i.imgur.com/50gNhXJ.jpg'
     const novas = 'https://i.imgur.com/PvIyMNH.jpg'
     const coastal = 'https://i.imgur.com/Pm4QcEN.jpg'
     const papuan = 'https://i.imgur.com/d7SYaMD.jpg'
     const jungle = 'https://i.imgur.com/sCRUKTU.jpg'
     const darwin = 'https://i.imgur.com/BVlw89d.jpg'
+
     return (
         <div >
             <header className="App-header-inner">
@@ -29,14 +31,19 @@ export const Collection = () =>{
                     </nav>
             </header>
                 <section className='Card-section'>
+                    
                     <SpeciesCard
                         img={ bredli }
-                        commonName= 'Bredli'
-                        scientificName= 'Morelia bredli' />
+                        commonName='Bredli'
+                        scientificName='Morelia bredli' 
+                        linkPath="/Collection/Bredli"
+                    />
+                    
                     <SpeciesCard
                         img={ novas }
                         commonName= 'Nova Guenea'
-                        scientificName= 'Morelia spilota variegata'/>
+                        scientificName= 'Morelia spilota variegata'
+                    />
                     <SpeciesCard 
                         img={ coastal }
                         commonName= 'Coastals'
