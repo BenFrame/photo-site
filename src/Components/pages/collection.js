@@ -6,8 +6,8 @@ import SpeciesCard from '../species-card';
 
 export const Collection = () =>{
 
-    const bredli = 'https://i.imgur.com/50gNhXJ.jpg'
-    const novas = 'https://i.imgur.com/PvIyMNH.jpg'
+    // const bredli = 'https://i.imgur.com/50gNhXJ.jpg'
+    // const novas = 'https://i.imgur.com/PvIyMNH.jpg'
     const coastal = 'https://i.imgur.com/Pm4QcEN.jpg'
     const papuan = 'https://i.imgur.com/d7SYaMD.jpg'
     const jungle = 'https://i.imgur.com/sCRUKTU.jpg'
@@ -33,16 +33,17 @@ export const Collection = () =>{
                 <section className='Card-section'>
                     
                     <SpeciesCard
-                        img={ bredli }
+                        url='https://i.imgur.com/50gNhXJ.jpg' 
                         commonName='Bredli'
                         scientificName='Morelia bredli' 
                         linkPath="/Collection/Bredli"
                     />
                     
                     <SpeciesCard
-                        img={ novas }
+                        url='https://i.imgur.com/PvIyMNH.jpg'
                         commonName= 'Nova Guenea'
                         scientificName= 'Morelia spilota variegata'
+                        
                     />
                     <SpeciesCard 
                         img={ coastal }
