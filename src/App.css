@@ -232,3 +232,33 @@
   body{
     background-color: black;
   }
+
+  .Collection-card{
+    box-shadow: 0 4px 8px 0 white;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 70px;
+    margin-left: 120px;
+    border-radius: 5px;
+    transition: 0.3s;
+    width: 400px;
+    
+  }
+
+  .Collection-card img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px 5px 0 0 ;
+  }
+
+  .Collection-card h2{
+    font-size: 50px;
+  }
+
+  .Collection-card p{
+    width: auto;
+    justify-content: center;
+  }

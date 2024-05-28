@@ -3,7 +3,7 @@ import React from "react"
 function CollectionCard(props) {
   
     return (
-        <div>
+        <div className="Collection-card">
             <img src={ props.url } alt={ props.title }/>
             <div >
                 <h2> { props.title } </h2>

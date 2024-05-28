@@ -1,7 +1,7 @@
 import ablogo from '../photos/ablogo.181d0c94.png'
 import CollectionCard from '../collection-card'
 import { Link } from 'react-router-dom'
-import bredliImageData from '../photos/bredliPhotos'
+import bredliImageData from '../photos/bredli-image-data'
 
 export const BredliCollection = () =>(
   <div>
@@ -22,7 +22,9 @@ export const BredliCollection = () =>(
     </header>
     <section className='Card-section'>
       <CollectionCard
-        url:'bredliImageData'
+        url= 'https://i.imgur.com/50gNhXJ.jpg'
+        title= 'bredli-babies'
+        description= 'Testing'
       />
     </section>
       <footer className = "Footer">
