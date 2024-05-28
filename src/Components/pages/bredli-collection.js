@@ -25,6 +25,7 @@ export const BredliCollection = () =>(
         url= 'https://i.imgur.com/50gNhXJ.jpg'
         title= 'bredli-babies'
         description= 'Testing'
+        dob= '2020'
       />
     </section>
       <footer className = "Footer">

@@ -8,6 +8,7 @@ function CollectionCard(props) {
             <div >
                 <h2> { props.title } </h2>
                 <p> { props.description } </p> 
+                <p> { props.dob } </p>
             </div>
         </div>
    
