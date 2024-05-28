@@ -1,7 +1,7 @@
 import React from "react"
 
-function CollectionCard(props) {
-  
+const CollectionCard = (props) => {
+
     return (
         <div className="Collection-card">
             <img src={ props.url } alt={ props.title }/>
