@@ -1,7 +1,7 @@
 import ablogo from '../photos/ablogo.181d0c94.png'
 import CollectionCard from '../collection-card'
 import { Link } from 'react-router-dom'
-import bredliImageData from '../photos/bredli-image-data'
+// import bredliImageData from '../photos/bredli-image-data'
 
 export const BredliCollection = () =>(
   <div>

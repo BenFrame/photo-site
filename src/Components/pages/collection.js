@@ -46,22 +46,22 @@ export const Collection = () =>{
                         
                     />
                     <SpeciesCard 
-                        img={ coastal }
+                        url={ coastal }
                         commonName= 'Coastals'
                         scientificName= 'Morelia spilota mcdowelli'
                     />
                     <SpeciesCard
-                        img={ papuan }
+                        url={ papuan }
                         commonName= 'Papuan(Irian Jaya)'
                         scientificName= 'Morelia spilota variegata'
                     />
                     <SpeciesCard
-                        img={ jungle }
+                        url={ jungle }
                         commonName= 'Jungles'
                         scientificName= 'Morelia spilota cheynei'
                     />
                     <SpeciesCard
-                        img={ darwin }
+                        url={ darwin }
                         commonName= 'Darwins'
                         scientificName= 'Morelia spilota variegata'
                     />
