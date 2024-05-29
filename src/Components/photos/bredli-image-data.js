@@ -6,10 +6,16 @@ const bredliImageData = [
         producedBy:'Produced by: Austin Warwick'
     },
    {
-        url:'https://i.imgur.com/xSI7NK3.jpg', 
-        title: 'pic2', 
-        description: 'Testing 2',
-        producedBy:'1234'
+        url:'https://i.imgur.com/rcUpsX3.jpg', 
+        title: 'Lazik("Bradley")', 
+        description: '2012 Female',
+        producedBy:'Produced by: Brian Barczyk'
+    },
+    {
+        url:'https://i.imgur.com/bPlmvNo.jpg', 
+        title: 'Striped Lazik', 
+        description: '2010 Male',
+        producedBy:'Produced by: Nick Mutton'
     },
 ]
 
