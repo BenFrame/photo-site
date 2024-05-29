@@ -1,3 +1,7 @@
+body {
+  --card-background: rgb(0, 0, 0);
+}
+
 .App {
   background-image: 
     url('C:\Users\brewe\Bloom-Repos\my-Repos\photo-site\src\Components\photos\CameraBlackBG.jpg'),
@@ -14,6 +18,7 @@
   color: white;
   padding: 20px;
 }
+
 .App-inner{
   
   /* text-align: left; */
@@ -196,8 +201,8 @@
   }
 
   .Species-card{
-    background-color: rgb(21, 21, 21);
-    box-shadow: 0 4px 8px 0 white;
+    background-color: var( --card-background );
+    /* box-shadow: 0 4px 8px 0 white; */
     color: white;
     text-align: center;
     padding-top: 20px;
@@ -235,8 +240,8 @@
   }
 
   .Collection-card{
-    background-color: rgb(21, 21, 21);
-    box-shadow: 0 4px 8px 0 white;
+    background-color: var(--card-background);
+    /* box-shadow: 0 4px 8px 0 white; */
     color: white;
     text-align: center;
     padding-top: 20px;
