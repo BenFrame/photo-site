@@ -7,8 +7,8 @@ const bredliImageData = [
     },
    {
         url:'https://i.imgur.com/rcUpsX3.jpg', 
-        title: 'Lazik("Bradley")', 
-        description: '2012 Female',
+        title: 'Het Stripe Lazik', 
+        description: '2012 Female "Bradley"',
         producedBy:'Produced by: Brian Barczyk'
     },
     {
@@ -20,8 +20,14 @@ const bredliImageData = [
     {
         url:'https://i.imgur.com/3N98HHa.jpg', 
         title: 'Striped Lazik', 
-        description: '2022 Female',
+        description: '2022 Female "Valentine"',
         producedBy:'Produced by: Drew'
+    },
+    {
+        url:'https://i.imgur.com/6ofT8de.jpg', 
+        title: 'Het Striped Lazik', 
+        description: '2022 Female "DarkOne"',
+        producedBy:'Produced by: AnB Reptiles'
     },
 ]
 
