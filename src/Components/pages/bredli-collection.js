@@ -35,7 +35,7 @@ export const BredliCollection = () =>{
       </section>
         <footer className = "Footer">
           <div>
-            <Link to="/main" >BACK</Link>
+            <Link to="/collection" >BACK</Link>
           </div>
         </footer>
     </div>

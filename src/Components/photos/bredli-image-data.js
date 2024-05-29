@@ -14,8 +14,14 @@ const bredliImageData = [
     {
         url:'https://i.imgur.com/bPlmvNo.jpg', 
         title: 'Striped Lazik', 
-        description: '2010 Male',
+        description: '2011 Male',
         producedBy:'Produced by: Nick Mutton'
+    },
+    {
+        url:'https://i.imgur.com/3N98HHa.jpg', 
+        title: 'Striped Lazik', 
+        description: '2022 Female',
+        producedBy:'Produced by: Drew'
     },
 ]
 

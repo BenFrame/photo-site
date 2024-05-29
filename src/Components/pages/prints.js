@@ -10,7 +10,7 @@ export const Prints = () =>{
                 <img  src={ablogo} className="App-logo-inner" alt="logo"/>
                 
                 <div className="Header">
-                    <h1 >PRINTS</h1>
+                    <h1 >Prints</h1>
                 </div>
                     <nav>
                         <a href='/main'>Home</a>

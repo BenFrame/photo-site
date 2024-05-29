@@ -10,7 +10,7 @@ export const AnimalsForSale = () =>{
                 <img  src={ablogo} className="App-logo-inner" alt="logo"/>
                 
                 <div className="Header">
-                    <h1 >ANIMALS FOR SALE</h1>
+                    <h1 >Animals For Sale</h1>
                 </div>
                     <nav>
                         <a href='/main'>Home</a>

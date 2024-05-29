@@ -12,7 +12,7 @@ export default function Main() {
                 <img  src={ablogo} className="App-logo-inner" alt="logo"/>
                 
                 <div className="Header">
-                    <h1 >WELCOME</h1>
+                    <h1 >Welcome</h1>
                 </div>
                     <nav>
                         <a className="Link-active" href='/main'>Home</a>
