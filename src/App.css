@@ -198,7 +198,6 @@ body {
     margin-top: 200px;
     margin-left: 120px;
     
-    /* justify-content: center; */
   }
 
   .Species-card{
@@ -214,8 +213,9 @@ body {
     border-radius: 5px;
     transition: 0.3s;
     width: 400px;
+    height: 400px;
     text-decoration: none;
-    
+    position: relative;
   }
 
   .Species-card img{
@@ -256,7 +256,9 @@ body {
     border-radius: 5px;
     transition: 0.3s;
     width: 400px;
+    height: 450px;
     text-decoration: none;
+    position: relative;
   }
 
   .Collection-card img{
@@ -276,5 +278,11 @@ body {
   }
 
   .Card-Text{
-    bottom:auto;
+    
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    
+    
   }
