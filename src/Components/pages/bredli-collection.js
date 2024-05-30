@@ -5,7 +5,6 @@ import CollectionCard from '../collection-card'
 import bredliImageData from '../photos/bredli-image-data'
 
 export const BredliCollection = () =>{
-  
 
   return(
     <div>

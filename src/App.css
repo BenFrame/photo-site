@@ -259,12 +259,14 @@ body {
     height: 450px;
     text-decoration: none;
     position: relative;
+    
   }
 
   .Collection-card img{
     width: 100%;
     height: auto;
     border-radius: 5px 5px 0 0 ;
+    transition: transform 0.3s ease-in-out, top 0.3s ease-in-out, left 0.3s ease-in-out;
   }
 
   .Collection-card h2{
@@ -275,6 +277,19 @@ body {
   .Collection-card p{
     width: auto;
     justify-content: center;
+  }
+
+  .Collection-card img:hover {
+    /* opacity: .5; */
+    /* transform: scale(.25%); */
+    margin-top: 50px;
+    position: fixed;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%) scale(.5); 
+    z-index: 10; 
+    border-radius: 0;
+
   }
 
   .Card-Text{
