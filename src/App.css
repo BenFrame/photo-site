@@ -1,5 +1,5 @@
 body {
-  --card-background: rgb(0, 0, 0);
+  --card-background: rgb(12, 12, 12);
 }
 
 .App {
@@ -215,6 +215,7 @@ body {
     transition: 0.3s;
     width: 400px;
     text-decoration: none;
+    
   }
 
   .Species-card img{
@@ -224,7 +225,9 @@ body {
   }
 
   .Species-card h2{
+    /* padding-top: 50px; */
     font-size: 50px;
+    
   }
 
   .Species-card p{
@@ -263,10 +266,15 @@ body {
   }
 
   .Collection-card h2{
+    /* padding-top: 10px; */
     font-size: 50px;
   }
 
   .Collection-card p{
     width: auto;
     justify-content: center;
+  }
+
+  .Card-Text{
+    bottom:auto;
   }
