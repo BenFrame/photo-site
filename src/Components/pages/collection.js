@@ -50,6 +50,7 @@ export const Collection = () =>{
                         url={ coastal }
                         commonName= 'Coastals'
                         scientificName= 'Morelia spilota mcdowelli'
+                        linkPath="/Collection/Coastals"
                     />
                     <SpeciesCard
                         url={ papuan }

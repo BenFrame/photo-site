@@ -10,6 +10,7 @@ import {AnimalsForSale} from './Components/pages/animals-for-Sale';
 import {Prints} from './Components/pages/prints';
 import { BredliCollection } from './Components/pages/bredli-collection';
 import { NovaCollection } from './Components/pages/nova-collection';
+import { CoastalCollection } from './Components/pages/coastal-collection';
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
         <Route path="/Prints" element={<Prints/>}/>
         <Route path="/Collection/Bredli" element={<BredliCollection/>}/>
         <Route path="/Collection/Novas" element={<NovaCollection/>}/>
+        <Route path="/Collection/Coastals" element={<CoastalCollection/>}/>
       </Routes>
     
   )  
