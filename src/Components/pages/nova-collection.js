@@ -2,9 +2,9 @@ import React from 'react'
 import ablogo from '../photos/ablogo.181d0c94.png'
 import { Link } from 'react-router-dom'
 import CollectionCard from '../collection-card'
-import bredliImageData from '../photos/bredli-image-data'
+import novaImageData from '../photos/nova-image-data'
 
-export const BredliCollection = () =>{
+export const NovaCollection = () =>{
 
   return(
     <div>
@@ -13,7 +13,7 @@ export const BredliCollection = () =>{
         <img  src={ablogo} className="App-logo-inner" alt="logo"/>
 
       <div className="Header">
-        <h1 >Bredli Collection</h1>
+        <h1 >Nova Guenea Collection</h1>
       </div>
         <nav>
           <a href='/main'>Home</a>
@@ -25,7 +25,7 @@ export const BredliCollection = () =>{
       </header>
       <section className='Card-section'>
         {
-          bredliImageData.map( dataItem => (
+          novaImageData.map( dataItem => (
             <CollectionCard 
               {...dataItem } // equivalent to saying url={ image.url } title={ image.title } etc... this just works since bredliImageData has keys the exact same names as the components expected props.
             />

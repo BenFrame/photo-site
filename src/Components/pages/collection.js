@@ -43,6 +43,7 @@ export const Collection = () =>{
                         url='https://i.imgur.com/PvIyMNH.jpg'
                         commonName= 'Nova Guenea'
                         scientificName= 'Morelia spilota variegata'
+                        linkPath="/Collection/Novas"
                         
                     />
                     <SpeciesCard 

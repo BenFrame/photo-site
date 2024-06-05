@@ -9,6 +9,7 @@ import { Collection } from './Components/pages/collection';
 import {AnimalsForSale} from './Components/pages/animals-for-Sale';
 import {Prints} from './Components/pages/prints';
 import { BredliCollection } from './Components/pages/bredli-collection';
+import { NovaCollection } from './Components/pages/nova-collection';
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
         <Route path="/AnimalsForSale" element={<AnimalsForSale/>}/>
         <Route path="/Prints" element={<Prints/>}/>
         <Route path="/Collection/Bredli" element={<BredliCollection/>}/>
+        <Route path="/Collection/Novas" element={<NovaCollection/>}/>
       </Routes>
     
   )  
