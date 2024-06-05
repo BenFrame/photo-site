@@ -1,5 +1,11 @@
 const coastalImageData = [
     {
+        url: 'https://i.imgur.com/OcLz15v.jpg',
+        title: 'Hypo Pos. Het. Ax.',
+        description: '2022 Male',
+        producedBy:'Produced by: Erik Kohler'
+    },
+    {
         url: 'https://i.imgur.com/Pm4QcEN.jpg',
         title: 'Brisbane',
         description: '2020 Male',
@@ -34,6 +40,24 @@ const coastalImageData = [
         title: 'MBB-Red',
         description: '2020 Female',
         producedBy:'Produced by: Martin Rosemond'
+    },
+    {
+        url: 'https://i.imgur.com/WqACuwl.jpg',
+        title: 'Het Axanthic',
+        description: '2017 Female',
+        producedBy:'Produced by: Ryan Dumas'
+    },
+    {
+        url: 'https://i.imgur.com/NXIRzYl.jpg',
+        title: 'Het Axanthic',
+        description: '2017 Male',
+        producedBy:'Produced by: Ryan Dumas'
+    },
+    {
+        url: 'https://i.imgur.com/tnaeHU9.jpg',
+        title: 'Caramel',
+        description: '2017 Female',
+        producedBy:'Produced by: Dan Romanowski'
     },
    
 ]

@@ -8,7 +8,7 @@ export const Collection = () =>{
 
     // const bredli = 'https://i.imgur.com/50gNhXJ.jpg'
     // const novas = 'https://i.imgur.com/PvIyMNH.jpg'
-    const coastal = 'https://i.imgur.com/Pm4QcEN.jpg'
+    const coastal = 'https://i.imgur.com/OcLz15v.jpg'
     const papuan = 'https://i.imgur.com/d7SYaMD.jpg'
     const jungle = 'https://i.imgur.com/sCRUKTU.jpg'
     const darwin = 'https://i.imgur.com/BVlw89d.jpg'
