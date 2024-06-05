@@ -280,7 +280,7 @@ body {
     justify-content: center;
   }
 
-  .Image-hover-trigger img:hover {
+  .Collection-card img:hover {
     /* opacity: .5; */
     /* transform: scale(.25%); */
     margin-top: 70px;
@@ -291,7 +291,6 @@ body {
     transition: .5s;
     z-index: 10; 
     border-radius: 0;
-    /* pointer-events:all; */
 
   }
 
