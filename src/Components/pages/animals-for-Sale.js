@@ -1,6 +1,8 @@
 import ablogo from '../photos/ablogo.181d0c94.png'
 import { Link } from 'react-router-dom';
 import '../../App.css';
+import forSaleImageData from '../photos/forSale-image-data';
+import CollectionCard from '../collection-card'
 
 export const AnimalsForSale = () =>{
     return (
@@ -20,9 +22,15 @@ export const AnimalsForSale = () =>{
 
                     </nav>
             </header>
-            <body className='Body-plain'>
-
-            </body>
+            <section className='Card-section'>
+            {
+          forSaleImageData.map( dataItem => (
+            <CollectionCard 
+              {...dataItem } // equivalent to saying url={ image.url } title={ image.title } etc... this just works since bredliImageData has keys the exact same names as the components expected props.
+            />
+          ))
+        }
+            </section>
             <footer className = "Footer">
                 <div>
 
