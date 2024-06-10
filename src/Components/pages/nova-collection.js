@@ -2,7 +2,7 @@ import React from 'react'
 import ablogo from '../photos/ablogo.181d0c94.png'
 import { Link } from 'react-router-dom'
 import CollectionCard from '../collection-card'
-import novaImageData from '../photos/nova-image-data'
+import novaImageData from "../Card-Data/nova-image-data"
 
 export const NovaCollection = () =>{
 
