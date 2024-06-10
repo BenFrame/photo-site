@@ -15,7 +15,7 @@ export const Collection = () =>{
                 <div className="Header">
                     <h1 >Our Carpet Python Collection</h1>
                 </div>
-                    <nav>
+                    <nav className='Header-links'>
                         <a href='/main'>Home</a>
                         <a className="Link-active" href='/collection'>Collection</a>
                         <a href='/AnimalsforSale'>Animals For Sale</a>
