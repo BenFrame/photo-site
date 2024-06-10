@@ -6,13 +6,6 @@ import SpeciesCard from '../species-card';
 
 export const Collection = () =>{
 
-    // const bredli = 'https://i.imgur.com/50gNhXJ.jpg'
-    // const novas = 'https://i.imgur.com/PvIyMNH.jpg'
-    // const coastal = 'https://i.imgur.com/OcLz15v.jpg'
-    const papuan = 'https://i.imgur.com/d7SYaMD.jpg'
-    const jungle = 'https://i.imgur.com/sCRUKTU.jpg'
-    const darwin = 'https://i.imgur.com/BVlw89d.jpg'
-
     return (
         <div >
             <header className="App-header-inner">
@@ -53,19 +46,29 @@ export const Collection = () =>{
                         linkPath="/Collection/Coastals"
                     />
                     <SpeciesCard
-                        url={ papuan }
+                        url='https://i.imgur.com/d7SYaMD.jpg'
                         commonName= 'Papuan(Irian Jaya)'
                         scientificName= 'Morelia spilota variegata'
                     />
                     <SpeciesCard
-                        url={ jungle }
+                        url='https://i.imgur.com/sCRUKTU.jpg'
                         commonName= 'Jungles'
                         scientificName= 'Morelia spilota cheynei'
                     />
                     <SpeciesCard
-                        url={ darwin }
+                        url='https://i.imgur.com/BVlw89d.jpg'
                         commonName= 'Darwins'
                         scientificName= 'Morelia spilota variegata'
+                    />
+                    <SpeciesCard
+                        url='https://i.imgur.com/RFqVHLM.jpg'
+                        commonName= 'Diamonds'
+                        scientificName= 'Morelia spilota'
+                    />
+                    <SpeciesCard
+                        url='https://i.imgur.com/xSI7NK3.jpg'
+                        commonName= 'Designer Morphs'
+                        scientificName= 'Morelia spilota'
                     />
                 </section>
             <footer className = "Footer">
