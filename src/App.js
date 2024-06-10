@@ -6,8 +6,8 @@ import {
   Route, 
   Link } from 'react-router-dom';
 import { Collection } from './Components/pages/collection';
-import {AnimalsForSale} from './Components/pages/animals-for-Sale';
-import {Prints} from './Components/pages/prints';
+import { AnimalsForSale } from './Components/pages/animals-for-Sale';
+import { Prints } from './Components/pages/prints';
 import { BredliCollection } from './Components/pages/bredli-collection';
 import { NovaCollection } from './Components/pages/nova-collection';
 import { CoastalCollection } from './Components/pages/coastal-collection';
