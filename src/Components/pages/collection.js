@@ -30,15 +30,7 @@ export const Collection = () =>{
                         commonName='Bredli'
                         scientificName='Morelia bredli' 
                         linkPath="/Collection/Bredli"
-                    />
-                    
-                    <SpeciesCard
-                        url='https://i.imgur.com/PvIyMNH.jpg'
-                        commonName= 'Nova Guenea'
-                        scientificName= 'Morelia spilota variegata'
-                        linkPath="/Collection/Novas"
-                        
-                    />
+                    />                    
                     <SpeciesCard 
                         url='https://i.imgur.com/OcLz15v.jpg'
                         commonName= 'Coastals'
@@ -51,19 +43,26 @@ export const Collection = () =>{
                         scientificName= 'Morelia spilota variegata'
                     />
                     <SpeciesCard
-                        url='https://i.imgur.com/sCRUKTU.jpg'
-                        commonName= 'Jungles'
-                        scientificName= 'Morelia spilota cheynei'
-                    />
-                    <SpeciesCard
                         url='https://i.imgur.com/BVlw89d.jpg'
                         commonName= 'Darwins'
                         scientificName= 'Morelia spilota variegata'
                     />
                     <SpeciesCard
+                        url='https://i.imgur.com/sCRUKTU.jpg'
+                        commonName= 'Jungles'
+                        scientificName= 'Morelia spilota cheynei'
+                    />
+                    <SpeciesCard
                         url='https://i.imgur.com/RFqVHLM.jpg'
                         commonName= 'Diamonds'
                         scientificName= 'Morelia spilota'
+                    />
+                    <SpeciesCard
+                        url='https://i.imgur.com/PvIyMNH.jpg'
+                        commonName= 'Nova Guenea'
+                        scientificName= 'Morelia spilota variegata'
+                        linkPath="/Collection/Novas"
+                            
                     />
                     <SpeciesCard
                         url='https://i.imgur.com/xSI7NK3.jpg'
