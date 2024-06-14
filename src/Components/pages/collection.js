@@ -41,6 +41,7 @@ export const Collection = () =>{
                         url='https://i.imgur.com/d7SYaMD.jpg'
                         commonName= 'Papuan(Irian Jaya)'
                         scientificName= 'Morelia spilota variegata'
+                        linkPath="/Collection/Papuan"
                     />
                     <SpeciesCard
                         url='https://i.imgur.com/BVlw89d.jpg'
