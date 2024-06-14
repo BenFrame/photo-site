@@ -1,9 +1,9 @@
 const papuanImageData = [
     {
-        url: 'https://i.imgur.com/PvIyMNH.jpg',
-        title: '',
-        description: '2020 Male',
-        producedBy:'Produced by: Billy Hunt'
+        url: 'https://i.imgur.com/d7SYaMD.jpg',
+        title: 'Undocumented',
+        description: '2018 Male',
+        producedBy:'Produced by: AnB Reptiles'
     },
    
 ]
