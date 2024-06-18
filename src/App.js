@@ -12,6 +12,7 @@ import { BredliCollection } from './Components/pages/bredli-collection';
 import { NovaCollection } from './Components/pages/nova-collection';
 import { CoastalCollection } from './Components/pages/coastal-collection';
 import { PapuanCollection } from './Components/pages/papuan-collection';
+import { DarwinCollection } from './Components/pages/darwin-collection';
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
         <Route path="/Collection/Novas" element={<NovaCollection/>}/>
         <Route path="/Collection/Coastals" element={<CoastalCollection/>}/>
         <Route path="/Collection/Papuans" element={<PapuanCollection/>}/>
+        <Route path="/Collection/Darwins" element={<DarwinCollection/>}/>
       </Routes>
     
   )  
