@@ -44,18 +44,19 @@ export const Collection = () =>{
                         linkPath="/Collection/Papuans"
                     />
                     <SpeciesCard
+                        url='https://i.imgur.com/PvEXjjJ.jpg'
+                        commonName= 'Jungles'
+                        scientificName= 'Morelia spilota cheynei'
+                        linkPath="/Collection/Jungles"
+                    />
+                    <SpeciesCard
                         url='https://i.imgur.com/BVlw89d.jpg'
                         commonName= 'Darwins'
                         scientificName= 'Morelia spilota variegata'
                         linkPath="/Collection/Darwins"
                     />
                     <SpeciesCard
-                        url='https://i.imgur.com/sCRUKTU.jpg'
-                        commonName= 'Jungles'
-                        scientificName= 'Morelia spilota cheynei'
-                    />
-                    <SpeciesCard
-                        url='https://i.imgur.com/RFqVHLM.jpg'
+                        url='https://i.imgur.com/67yDHxH.jpg'
                         commonName= 'Diamonds'
                         scientificName= 'Morelia spilota'
                     />
@@ -67,7 +68,7 @@ export const Collection = () =>{
                             
                     />
                     <SpeciesCard
-                        url='https://i.imgur.com/xSI7NK3.jpg'
+                        url='https://i.imgur.com/f0ESMmO.jpg'
                         commonName= 'Designer Morphs'
                         scientificName= 'Morelia spilota'
                     />

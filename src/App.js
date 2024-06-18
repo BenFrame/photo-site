@@ -13,6 +13,7 @@ import { NovaCollection } from './Components/pages/nova-collection';
 import { CoastalCollection } from './Components/pages/coastal-collection';
 import { PapuanCollection } from './Components/pages/papuan-collection';
 import { DarwinCollection } from './Components/pages/darwin-collection';
+import { JungleCollection } from './Components/pages/jungle-collection';
 
 function App() {
 
@@ -29,6 +30,7 @@ function App() {
         <Route path="/Collection/Coastals" element={<CoastalCollection/>}/>
         <Route path="/Collection/Papuans" element={<PapuanCollection/>}/>
         <Route path="/Collection/Darwins" element={<DarwinCollection/>}/>
+        <Route path="/Collection/Jungles" element={<JungleCollection/>}/>
       </Routes>
     
   )  
