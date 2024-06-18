@@ -261,8 +261,18 @@ body {
     height: 450px;
     text-decoration: none;
     position: relative;
-    display: inline-block;
     
+    
+  }
+
+  .image-container{
+    display: inline-block;
+    /* transition: transform .5s; */
+  }
+
+  .image-container img{
+    display: block;
+    width: 100%;
   }
 
   .Collection-card img{
@@ -290,7 +300,7 @@ body {
     top: 50%; 
     left: 50%; 
     transform: translate(-50%, -50%) scale(.5); 
-    transition: .5s;
+    /* transition: .5s; */
     z-index: 10; 
     border-radius: 0;
 

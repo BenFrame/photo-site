@@ -24,7 +24,7 @@ export default function Main() {
             </header>
             <div className='Home-background'>
                 <section className='Home-article'>
-                    <h2> About us: </h2><br></br>
+                    <h2> Experience Beauty! </h2><br></br>
                     <p>We breed and sell carpet pythons!</p>
                     <p>We are local to Rochester NY, but we ship nationwide!</p><br></br>
 
