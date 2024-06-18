@@ -292,7 +292,7 @@ body {
     justify-content: center;
   }
 
-  .Collection-card img:hover {
+  .Collection-card.selected img {
     /* opacity: .5; */
     /* transform: scale(.25%); */
     margin-top: 70px;
@@ -303,7 +303,10 @@ body {
     /* transition: .5s; */
     z-index: 10; 
     border-radius: 0;
+  }
 
+  .Collection-card img:hover {
+    cursor: pointer;
   }
 
   .Card-Text{
