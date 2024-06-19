@@ -1,7 +1,7 @@
 import React from 'react'
 import ablogo from '../photos/ablogo.181d0c94.png'
 import { Link } from 'react-router-dom'
-import CollectionCard from '../collection-card'
+import CollectionGroup from '../collection-card-section'
 import darwinImageData from '../photos/darwin-image-data'
 
 export const DarwinCollection = () =>{
@@ -23,20 +23,12 @@ export const DarwinCollection = () =>{
 
         </nav>
       </header>
-      <section className='Card-section'>
-        {
-          darwinImageData.map( dataItem => (
-            <CollectionCard 
-              {...dataItem } // equivalent to saying url={ image.url } title={ image.title } etc... this just works since bredliImageData has keys the exact same names as the components expected props.
-            />
-          ))
-        }
-      </section>
-        <footer className = "Footer">
-          <div>
-            <Link to="/collection" >BACK</Link>
-          </div>
-        </footer>
+        <CollectionGroup data={ darwinImageData } />
+      <footer className = "Footer">
+        <div>
+          <Link to="/collection" >BACK</Link>
+        </div>
+      </footer>
     </div>
   )
 }

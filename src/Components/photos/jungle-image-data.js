@@ -7,9 +7,9 @@ const papuanImageData = [
     },
     {
         url: 'https://i.imgur.com/K8x8MgY.jpg',
-        title: 'Striped Hold Back',
-        description: '2018 Male',
-        producedBy:'Produced by: AnB Reptiles'
+        title: '',
+        description: '2014 Male "Cyclops"',
+        producedBy:'Produced by: Ania Sitarski'
     },
    
 ]
