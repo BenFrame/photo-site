@@ -14,6 +14,7 @@ import { CoastalCollection } from './Components/pages/coastal-collection';
 import { PapuanCollection } from './Components/pages/papuan-collection';
 import { DarwinCollection } from './Components/pages/darwin-collection';
 import { JungleCollection } from './Components/pages/jungle-collection';
+import { DiamondCollection} from './Components/pages/diamond-collection'
 
 function App() {
 
@@ -31,6 +32,7 @@ function App() {
         <Route path="/Collection/Papuans" element={<PapuanCollection/>}/>
         <Route path="/Collection/Darwins" element={<DarwinCollection/>}/>
         <Route path="/Collection/Jungles" element={<JungleCollection/>}/>
+        <Route path="/Collection/Diamonds" element={<DiamondCollection/>}/>
       </Routes>
     
   )  

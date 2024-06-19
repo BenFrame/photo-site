@@ -1,4 +1,4 @@
-const jungleImageData = [
+const diamondImageData = [
     {
         url: 'https://i.imgur.com/PvEXjjJ.jpg',
         title: 'Striped Hold Back',
@@ -14,4 +14,4 @@ const jungleImageData = [
    
 ]
 
-export default jungleImageData;
+export default diamondImageData;

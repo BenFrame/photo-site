@@ -2,9 +2,9 @@ import React from 'react'
 import ablogo from '../photos/ablogo.181d0c94.png'
 import { Link } from 'react-router-dom'
 import CollectionGroup from '../collection-card-section'
-import jungleImageData from '../photos/jungle-image-data'
+import diamondImageData from '../photos/diamond-image-data'
 
-export const JungleCollection = () =>{
+export const DiamondCollection = () =>{
 
   return(
     <div>
@@ -13,7 +13,7 @@ export const JungleCollection = () =>{
         <img  src={ablogo} className="App-logo-inner" alt="logo"/>
 
       <div className="Header">
-        <h1 >Jungle Collection</h1>
+        <h1 >Diamond Collection</h1>
       </div>
         <nav>
           <a href='/main'>Home</a>
@@ -23,7 +23,7 @@ export const JungleCollection = () =>{
 
         </nav>
       </header>
-        <CollectionGroup data={ jungleImageData } />
+        <CollectionGroup data={ diamondImageData } />
       <footer className = "Footer">
         <div>
           <Link to="/collection" >BACK</Link>
