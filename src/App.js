@@ -14,7 +14,7 @@ import { CoastalCollection } from './Components/pages/coastal-collection';
 import { PapuanCollection } from './Components/pages/papuan-collection';
 import { DarwinCollection } from './Components/pages/darwin-collection';
 import { JungleCollection } from './Components/pages/jungle-collection';
-import { DiamondCollection} from './Components/pages/diamond-collection'
+import { DiamondCollection } from './Components/pages/diamond-collection';
 
 function App() {
 
