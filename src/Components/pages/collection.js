@@ -72,6 +72,7 @@ export const Collection = () =>{
                         url='https://i.imgur.com/f0ESMmO.jpg'
                         commonName= 'Designer Morphs'
                         scientificName= 'Morelia spilota'
+                        linkPath="/Collection/Morphs"
                     />
                 </section>
             <footer className = "Footer">

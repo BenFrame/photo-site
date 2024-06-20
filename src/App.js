@@ -15,6 +15,7 @@ import { PapuanCollection } from './Components/pages/papuan-collection';
 import { DarwinCollection } from './Components/pages/darwin-collection';
 import { JungleCollection } from './Components/pages/jungle-collection';
 import { DiamondCollection } from './Components/pages/diamond-collection';
+import { MorphCollection } from './Components/pages/morphs-collection';
 
 function App() {
 
@@ -33,6 +34,7 @@ function App() {
         <Route path="/Collection/Darwins" element={<DarwinCollection/>}/>
         <Route path="/Collection/Jungles" element={<JungleCollection/>}/>
         <Route path="/Collection/Diamonds" element={<DiamondCollection/>}/>
+        <Route path="/Collection/Morphs" element={<MorphCollection/>}/>
       </Routes>
     
   )  
