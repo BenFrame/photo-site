@@ -59,6 +59,7 @@ export const Collection = () =>{
                         url='https://i.imgur.com/67yDHxH.jpg'
                         commonName= 'Diamonds'
                         scientificName= 'Morelia spilota'
+                        linkPath="/Collection/Diamonds"
                     />
                     <SpeciesCard
                         url='https://i.imgur.com/PvIyMNH.jpg'
