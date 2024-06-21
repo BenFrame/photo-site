@@ -20,9 +20,9 @@ export const Prints = () =>{
 
                     </nav>
             </header>
-            <body className='Prints-background'>
-                                
-            </body>
+            <div >
+                <img  url='https://i.imgur.com/zjDOaDa.jpg'  alt="print"/>            
+            </div>
             <footer className = "Footer">
                 <div>
 

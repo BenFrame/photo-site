@@ -117,19 +117,17 @@ body {
   
 }
 
-.Prints-background{
+/* .Prints-background{
   background-image: url('https://i.imgur.com/zjDOaDa.jpg');
-  background-size: 60%;
-  /* justify-content: center; */
-  background-position: right;
+  background-size: contain;
+  justify-content: center;
+  background-position: center;
   background-repeat: no-repeat;
   background-origin: content-box;
-  /* background-attachment: fixed; */
-  size: auto;
-  /* margin-top: 90px; */
-  /* margin-bottom: 50px; */
-  
-}
+  background-attachment: scroll;
+  height: 100vh;
+ 
+} */
 
 .Footer{  
   
