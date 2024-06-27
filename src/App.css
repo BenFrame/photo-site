@@ -309,10 +309,12 @@ body {
     padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
-    width: 25vw;
-    margin: 0 auto;
+    width: 50vw;
+    /* max-height: 70vh; */
+    margin: auto;
+    margin-bottom: 80px;
     border-radius: 8px;
-    overflow: hidden;
+    /* overflow: hidden; */
     text-align: center;
   }
 
@@ -328,7 +330,16 @@ body {
   }
 
   .print-card-price{
-    /* font-size: 1.2rem; */
+    width: 100%;
+    font-size: 20px;
     color: white;
+    justify-content: center;
     
+  }
+  .print-card-section{
+    
+    background-color: black;
+    margin-top: 180px;
+    justify-content: center;
+        
   }

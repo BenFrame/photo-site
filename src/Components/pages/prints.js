@@ -24,12 +24,24 @@ export const Prints = () =>{
             <div >
                 <img  url='https://i.imgur.com/zjDOaDa.jpg'  alt="print"/>            
             </div>
-            
-            <PrintCard
-                image='https://i.imgur.com/zjDOaDa.jpg'
-                title='"Madame Firefly"'
-                price='price: "priceless"'
-            />
+            <section className='print-card-section'>
+                <PrintCard
+                    image='https://i.imgur.com/PGHo6cm.jpg'
+                    title='"Madame Firefly"'
+                    price='Price: "Priceless"'
+                />
+                <PrintCard
+                    image='https://i.imgur.com/njYRm0h.jpg'
+                    title='"Betty White"'
+                    price='Price: "$1,000,000"'
+                />
+                <PrintCard
+                    image='https://i.imgur.com/c8dELGC.jpg'
+                    title='"Otis Driftwood"'
+                    price='Price: "Your Soul"'
+                />
+
+            </section>
             <footer className = "Footer">
                 <div>
 
