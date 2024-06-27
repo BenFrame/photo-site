@@ -8,7 +8,7 @@ const morphImageData = [
     {
         url: 'https://i.imgur.com/SEjCZjQ.jpg',
         title: 'Super Caramel Jag',
-        description: '2017 Female "PHB"',
+        description: '2017 Female "Psycho Hose Beast"',
         producedBy:'Produced by: Lon Deixler'
     },
    
