@@ -1,6 +1,7 @@
 import ablogo from '../photos/ablogo.181d0c94.png'
 import { Link } from 'react-router-dom';
 import '../../App.css';
+import PrintCard from '../print-card';
 
 export const Prints = () =>{
     return (
@@ -23,6 +24,12 @@ export const Prints = () =>{
             <div >
                 <img  url='https://i.imgur.com/zjDOaDa.jpg'  alt="print"/>            
             </div>
+            
+            <PrintCard
+                image='https://i.imgur.com/zjDOaDa.jpg'
+                title='"Madame Firefly"'
+                price='price: "priceless"'
+            />
             <footer className = "Footer">
                 <div>
 
