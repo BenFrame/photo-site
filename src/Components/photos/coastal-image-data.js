@@ -42,6 +42,12 @@ const coastalImageData = [
         producedBy:'Produced by: Martin Rosemond'
     },
     {
+        url: 'https://i.imgur.com/vee36wX.jpg',
+        title: 'Red',
+        description: '2020 Male',
+        producedBy:'Produced by: Jason Baylin'
+    },
+    {
         url: 'https://i.imgur.com/W1WizXn.jpg',
         title: 'Het Axanthic',
         description: '2017 Female',

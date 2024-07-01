@@ -29,6 +29,12 @@ const bredliImageData = [
         description: '2022 Female "DarkOne"',
         producedBy:'Produced by: AnB Reptiles'
     },
+    {
+        url:'https://i.imgur.com/pITnrea.jpg', 
+        title: 'Het Striped Lazik', 
+        description: '2022 Female',
+        producedBy:'Produced by: AnB Reptiles'
+    },
 ]
 
 export default bredliImageData;
