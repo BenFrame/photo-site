@@ -4,7 +4,8 @@ import Main from './Components/Main-inner'
 import { 
   Routes, 
   Route, 
-  Link } from 'react-router-dom';
+  Link,
+  Redirect, } from 'react-router-dom';
 import { Collection } from './Components/pages/collection';
 import { AnimalsForSale } from './Components/pages/animals-for-Sale';
 import { Prints } from './Components/pages/prints';
@@ -16,6 +17,23 @@ import { DarwinCollection } from './Components/pages/darwin-collection';
 import { JungleCollection } from './Components/pages/jungle-collection';
 import { DiamondCollection } from './Components/pages/diamond-collection';
 import { MorphCollection } from './Components/pages/morphs-collection';
+import { useAuth0 } from '@auth0/auth0-react';
+import LoginPage from './Components/pages/login-page';
+import AdminPage from './Components/pages/admin-page';
+
+const PrivateRoute = ({ element: Element, ...rest}) => {
+  const { isAuthenticated } = useAuth0();
+
+  return (
+    <Route
+      {...rest}
+      render = {(props) => 
+        isAuthenticated ? <Element {...props}/> : <Redirect to = '/login'/>
+      }
+    />
+  )
+}
+
 
 function App() {
 
@@ -35,6 +53,8 @@ function App() {
         <Route path="/Collection/Jungles" element={<JungleCollection/>}/>
         <Route path="/Collection/Diamonds" element={<DiamondCollection/>}/>
         <Route path="/Collection/Morphs" element={<MorphCollection/>}/>
+        <Route path="/login" element={<LoginPage/>}/>
+        <PrivateRoute path="/admin" element={<AdminPage/>}/>
       </Routes>
     
   )  
