@@ -20,6 +20,7 @@ export const Collection = () =>{
                         <a className="Link-active" href='/collection'>Collection</a>
                         <a href='/AnimalsforSale'>Animals For Sale</a>
                         <a href='/prints'>Prints</a>
+                        <a href='/login'>Log In</a>
 
                     </nav>
             </header>

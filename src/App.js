@@ -21,17 +21,10 @@ import { useAuth0 } from '@auth0/auth0-react';
 import LoginPage from './Components/pages/login-page';
 import AdminPage from './Components/pages/admin-page';
 
-const PrivateRoute = ({ element: Element, ...rest}) => {
+const PrivateRoute = ({ element, ...rest}) => {
   const { isAuthenticated } = useAuth0();
 
-  return (
-    <Route
-      {...rest}
-      render = {(props) => 
-        isAuthenticated ? <Element {...props}/> : <Navigate to = '/login'/>
-      }
-    />
-  )
+  return isAuthenticated ? <Route {...rest} element = {element}/> : <Navigate to='/login'/>;
 }
 
 
