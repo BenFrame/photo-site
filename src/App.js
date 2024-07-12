@@ -5,7 +5,7 @@ import {
   Routes, 
   Route, 
   Link,
-  Redirect, } from 'react-router-dom';
+  Navigate, } from 'react-router-dom';
 import { Collection } from './Components/pages/collection';
 import { AnimalsForSale } from './Components/pages/animals-for-Sale';
 import { Prints } from './Components/pages/prints';
@@ -28,7 +28,7 @@ const PrivateRoute = ({ element: Element, ...rest}) => {
     <Route
       {...rest}
       render = {(props) => 
-        isAuthenticated ? <Element {...props}/> : <Redirect to = '/login'/>
+        isAuthenticated ? <Element {...props}/> : <Navigate to = '/login'/>
       }
     />
   )
@@ -54,8 +54,12 @@ function App() {
         <Route path="/Collection/Diamonds" element={<DiamondCollection/>}/>
         <Route path="/Collection/Morphs" element={<MorphCollection/>}/>
         <Route path="/login" element={<LoginPage/>}/>
-        <PrivateRoute path="/admin" element={<AdminPage/>}/>
+        <Route path="/admin" element={<PrivateRoute element={<AdminPage/>}/>}/>
       </Routes>
+    
+    
+    
+    
     
   )  
 }
