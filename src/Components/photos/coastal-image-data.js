@@ -24,7 +24,7 @@ const coastalImageData = [
         producedBy:'Produced by: Todd Dyer'
     },
     {
-        url: 'https://i.imgur.com/kHKXkYh.jpg',
+        url: 'https://i.imgur.com/zAVioAW.jpg',
         title: 'Axanthic',
         description: '2020 Female',
         producedBy:'Produced by: Riley Jimison'
