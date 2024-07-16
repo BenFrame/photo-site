@@ -1,6 +1,6 @@
 const coastalImageData = [
     {
-        url: 'https://i.imgur.com/OcLz15v.jpg',
+        url: 'https://i.imgur.com/v843EuU.jpg',
         title: 'Hypo Pos. Het. Ax.',
         description: '2022 Male',
         producedBy:'Produced by: Erik Kohler'
@@ -42,7 +42,7 @@ const coastalImageData = [
         producedBy:'Produced by: Martin Rosemond'
     },
     {
-        url: 'https://i.imgur.com/vee36wX.jpg',
+        url: 'https://i.imgur.com/WkSRBVz.jpg',
         title: 'Red',
         description: '2020 Male',
         producedBy:'Produced by: Jason Baylin'

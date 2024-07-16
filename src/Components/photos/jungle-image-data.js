@@ -30,7 +30,7 @@ const jungleImageData = [
         producedBy:'Produced by: Drew'
     },
     {
-        url: 'https://i.imgur.com/PGHo6cm.jpg',
+        url: 'https://i.imgur.com/doDEtlD.jpg',
         title: 'Super Zebra',
         description: '2022 Female "Madame Firefly"',
         producedBy:'Produced by: Jeff Exline'
