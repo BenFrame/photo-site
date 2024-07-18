@@ -5,6 +5,12 @@ const bredliImageData = [
         description: '2017 Male',
         producedBy:'Produced by: Austin Warwick'
     },
+    {
+        url:'https://i.imgur.com/EJTQgbp.jpg', 
+        title: 'Het Stripe Lazik', 
+        description: '2012 Female "Bianca"',
+        producedBy:'Produced by: Brian Barczyk'
+    },
    {
         url:'https://i.imgur.com/rcUpsX3.jpg', 
         title: 'Het Stripe Lazik', 
@@ -12,7 +18,7 @@ const bredliImageData = [
         producedBy:'Produced by: Brian Barczyk'
     },
     {
-        url:'https://i.imgur.com/bPlmvNo.jpg', 
+        url:'https://i.imgur.com/xETnzvc.jpg', 
         title: 'Striped Lazik', 
         description: '2011 Male',
         producedBy:'Produced by: Nick Mutton'
