@@ -1,6 +1,7 @@
 import ablogo from './photos/ablogo.181d0c94.png'
 import { Link } from 'react-router-dom';
 import '../App.css';
+import AuthLogin from './authLogin';
 
 
 export default function Main() {
@@ -19,6 +20,8 @@ export default function Main() {
                         <a href='/collection'>Collection</a>
                         <a href='/AnimalsforSale'>Animals For Sale</a>
                         <a href='/prints'>Prints</a>
+                        <AuthLogin></AuthLogin>
+                                             
 
                     </nav>
             </header>

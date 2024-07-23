@@ -19,13 +19,14 @@ import { JungleCollection } from './Components/pages/jungle-collection';
 import { DiamondCollection } from './Components/pages/diamond-collection';
 import { MorphCollection } from './Components/pages/morphs-collection';
 import { useAuth0 } from '@auth0/auth0-react';
+// import AuthLogin from './Components/authLogin';
 
 import AdminPage from './Components/pages/admin-page';
 
 const PrivateRoute = ({ element, ...rest}) => {
   const { isAuthenticated } = useAuth0();
 
-  return isAuthenticated ? <Route {...rest} element = {element}/> : <Navigate to='/admin'/>;
+  return isAuthenticated ? <Route {...rest} element = {element}/> : <Navigate to='/login'/>;
 }
 
 
