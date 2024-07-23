@@ -7,7 +7,7 @@ const morphImageData = [
     },
     {
         url: 'https://i.imgur.com/W5PO3LF.jpg',
-        title: 'Caramel Jungle Jag',
+        title: 'Caramel Jungle',
         description: '2022 Male',
         producedBy:'Produced by: AnB Reptiles'
     },

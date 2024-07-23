@@ -1,6 +1,7 @@
 import ablogo from './Components/photos/ablogo.181d0c94.png'
 import './App.css';
 import Main from './Components/Main-inner'
+import React from 'react';
 import { 
   Routes, 
   Route, 
@@ -18,13 +19,13 @@ import { JungleCollection } from './Components/pages/jungle-collection';
 import { DiamondCollection } from './Components/pages/diamond-collection';
 import { MorphCollection } from './Components/pages/morphs-collection';
 import { useAuth0 } from '@auth0/auth0-react';
-import LoginPage from './Components/pages/login-page';
+
 import AdminPage from './Components/pages/admin-page';
 
 const PrivateRoute = ({ element, ...rest}) => {
   const { isAuthenticated } = useAuth0();
 
-  return isAuthenticated ? <Route {...rest} element = {element}/> : <Navigate to='/login'/>;
+  return isAuthenticated ? <Route {...rest} element = {element}/> : <Navigate to='/admin'/>;
 }
 
 
@@ -46,7 +47,7 @@ function App() {
         <Route path="/Collection/Jungles" element={<JungleCollection/>}/>
         <Route path="/Collection/Diamonds" element={<DiamondCollection/>}/>
         <Route path="/Collection/Morphs" element={<MorphCollection/>}/>
-        <Route path="/login" element={<LoginPage/>}/>
+        
         <Route path="/admin" element={<PrivateRoute element={<AdminPage/>}/>}/>
       </Routes>
     
