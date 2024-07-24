@@ -1,8 +1,8 @@
 const jungleImageData = [
     {
-        url: 'https://i.imgur.com/nGjpT9Y.jpg',
+        url: 'https://i.imgur.com/pvmERI0.jpg',
         title: 'Striped Hold Back',
-        description: '2020 Male',
+        description: '2018 Male',
         producedBy:'Produced by: AnB Reptiles'
     },
     {
