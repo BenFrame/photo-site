@@ -47,8 +47,7 @@ function App() {
         <Route path="/Collection/Darwins" element={<DarwinCollection/>}/>
         <Route path="/Collection/Jungles" element={<JungleCollection/>}/>
         <Route path="/Collection/Diamonds" element={<DiamondCollection/>}/>
-        <Route path="/Collection/Morphs" element={<MorphCollection/>}/>
-        
+        <Route path="/Collection/Morphs" element={<MorphCollection/>}/>        
         <Route path="/admin" element={<PrivateRoute element={<AdminPage/>}/>}/>
       </Routes>
     
