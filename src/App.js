@@ -21,12 +21,12 @@ import { MorphCollection } from './Components/pages/morphs-collection';
 import { useAuth0 } from '@auth0/auth0-react';
 // import AuthLogin from './Components/authLogin';
 
-import AdminPage from './Components/pages/admin-page';
+import { AdminPage } from './Components/pages/admin-page';
 
 const PrivateRoute = ({ element }) => {
   const { isAuthenticated } = useAuth0();
 
-  return isAuthenticated ? element : <Navigate to = '/admin'/>;
+  return isAuthenticated ? element : <Navigate to = '/Admin'/>;
 }
 
 
@@ -48,15 +48,15 @@ function App() {
         <Route path="/Collection/Jungles" element={<JungleCollection/>}/>
         <Route path="/Collection/Diamonds" element={<DiamondCollection/>}/>
         <Route path="/Collection/Morphs" element={<MorphCollection/>}/>        
-        <Route path="/admin" element={<PrivateRoute element={<AdminPage/>}/>}/>
+        <Route path="/Admin" element={<PrivateRoute element={<AdminPage/>}/>}/>
       </Routes>
     
     
     
     
     
-  )  
-}
+  );
+};
 
 const DefaultPage = () => {
   return (
