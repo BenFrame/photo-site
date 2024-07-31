@@ -23,10 +23,10 @@ import { useAuth0 } from '@auth0/auth0-react';
 
 import AdminPage from './Components/pages/admin-page';
 
-const PrivateRoute = ({ element, ...rest}) => {
+const PrivateRoute = ({ element }) => {
   const { isAuthenticated } = useAuth0();
 
-  return isAuthenticated ? element: <Navigate to = '/admin'/>;
+  return isAuthenticated ? element : <Navigate to = '/login?redirectTo=/admin'/>;
 }
 
 
