@@ -26,7 +26,9 @@ import { AdminPage } from './Components/pages/admin-page';
 const PrivateRoute = ({ element }) => {
   const { isAuthenticated } = useAuth0();
 
-  return isAuthenticated ? element : <Navigate to = '/Admin'/>;
+  console.log( "isAuthenticated?", isAuthenticated );
+
+  return isAuthenticated ? element : <Navigate to = '/'/>;
 }
 
 
