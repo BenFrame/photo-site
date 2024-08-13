@@ -24,7 +24,11 @@ import { useAuth0 } from '@auth0/auth0-react';
 import { AdminPage } from './Components/pages/admin-page';
 
 const PrivateRoute = ({ element }) => {
-  const { isAuthenticated } = useAuth0();
+  const { isAuthenticated, isLoading } = useAuth0();
+
+  if (isLoading) {
+    return <div>Loading...</div>
+  }
 
   console.log( "isAuthenticated?", isAuthenticated );
 

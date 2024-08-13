@@ -7,7 +7,7 @@ function SpeciesCard(props) {
     return (<><div>component...</div></>)
   }
 
-    return <Link class="Species-card" to={props.linkPath}>
+    return <Link className="Species-card" to={props.linkPath}>
     <img src={ props.url } alt='img'/>
         <div className="Card-Text">
           <h2> { props.commonName } </h2>

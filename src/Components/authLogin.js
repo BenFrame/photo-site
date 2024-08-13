@@ -3,7 +3,7 @@ import { useAuth0 } from "@auth0/auth0-react";
 import { useNavigate } from "react-router";
 
 const AuthLogin = () => {
-    const { loginWithRedirect, logout, isAuthenticated } = useAuth0();
+    const { loginWithRedirect, logout, isAuthenticated, isLoading } = useAuth0();
     const navigate = useNavigate();
 
     const handleLogin = async () => {
@@ -14,7 +14,11 @@ const AuthLogin = () => {
 
     const handleLogout = async () => {
         logout({ returnTo: window.location.origin });
-        navigate('/')
+        navigate('/');
+    };
+
+    if(isLoading){
+        return <div>Loading...</div>
     }
 
 
