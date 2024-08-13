@@ -60,7 +60,7 @@ const coastalImageData = [
         producedBy:'Produced by: Ryan Dumas'
     },
     {
-        url: 'https://i.imgur.com/tnaeHU9.jpg',
+        url: 'https://i.imgur.com/JSIf8DB.jpg',
         title: 'Caramel',
         description: '2017 Female',
         producedBy:'Produced by: Dan Romanowski'

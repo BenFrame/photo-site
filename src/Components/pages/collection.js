@@ -45,7 +45,7 @@ export const Collection = () =>{
                         linkPath="/Collection/Papuans"
                     />
                     <SpeciesCard
-                        url='https://i.imgur.com/PvEXjjJ.jpg'
+                        url='https://i.imgur.com/8Ve3wID.jpg'
                         commonName= 'Jungles'
                         scientificName= 'Morelia spilota cheynei'
                         linkPath="/Collection/Jungles"

@@ -6,6 +6,18 @@ const jungleImageData = [
         producedBy:'Produced by: AnB Reptiles'
     },
     {
+        url: 'https://i.imgur.com/8Ve3wID.jpg',
+        title: 'Striped Hold Back',
+        description: '2018 Female',
+        producedBy:'Produced by: AnB Reptiles'
+    },
+    {
+        url: 'https://i.imgur.com/Ok6rDec.jpg',
+        title: 'Striped Hold Back',
+        description: '2018 Female',
+        producedBy:'Produced by: AnB Reptiles'
+    },
+    {
         url: 'https://i.imgur.com/PvEXjjJ.jpg',
         title: 'Striped Hold Back',
         description: '2018 Female "Banner Girl"',
