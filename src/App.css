@@ -107,13 +107,14 @@ body {
   background-image: url('https://i.imgur.com/MffX8UV.jpg');
   background-size: 60%;
   /* justify-content: center; */
-  background-position: right;
+  background-position: right 175px;
   background-repeat: no-repeat;
   background-origin: content-box;
-  /* background-attachment: fixed; */
+  background-attachment: fixed;
   size: auto;
+  /* padding-top: 90px; */
   /* margin-top: 90px; */
-  /* margin-bottom: 50px; */
+  padding-bottom: 50px;
   
 }
 
@@ -123,7 +124,7 @@ body {
   font-size: 20px;
   width: auto;
   padding: 0;
-  margin-top: 50px;
+  /* margin-top: 50px; */
   }
 
   .Footer a {

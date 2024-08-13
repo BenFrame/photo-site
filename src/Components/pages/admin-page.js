@@ -1,6 +1,7 @@
 import ablogo from '../photos/ablogo.181d0c94.png'
 import React from 'react';
 import '../../App.css';
+import AuthLogin from '../authLogin';
 
 export const AdminPage = () => {
     return(
@@ -17,6 +18,8 @@ export const AdminPage = () => {
                     <a href='/collection'>Collection</a>
                     <a href='/AnimalsforSale'>Animals For Sale</a>
                     <a href='/prints'>Prints</a>
+                    <a className="Link-active" href='/admin'>Admin</a>
+                    <AuthLogin></AuthLogin>
 
                 </nav>
         </header>
